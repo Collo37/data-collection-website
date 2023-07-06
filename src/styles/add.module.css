@@ -1,0 +1,6 @@
+.container {
+    flex: 1;
+}
+.inputs_container input {
+    width: 100%;
+}
