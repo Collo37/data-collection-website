@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 
 import CSSstyles from "../styles/add.module.css";
 
-const add = () => {
+const Add = () => {
   const [inputValues, setInputValues] = useState({
     name: "",
     gender: "",
@@ -115,7 +115,7 @@ const add = () => {
   );
 };
 
-export default add;
+export default Add;
 
 const styles = {
   container: {

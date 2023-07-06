@@ -19,7 +19,7 @@ const designatedLocations = [
 // const markAsCovered = (area) => {
 // }
 
-const locations = () => {
+const Locations = () => {
   return (
     <div className={styles.container}>
       <div className={styles.container_header}>
@@ -57,4 +57,4 @@ const locations = () => {
   );
 };
 
-export default locations;
+export default Locations;
